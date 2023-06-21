@@ -1150,7 +1150,7 @@ padding: 0px 150px 0px 150px;
         }
     }
 
-.tank-feature-3 span.numer img{
+.tank-feature-3 span.number img{
         vertical-align: -webkit-baseline-middle;
     }
 
@@ -1257,9 +1257,9 @@ padding: 0px 150px 0px 150px;
 
 @media (max-width:768px){
 
-    .tank-feature-3 .grid-columns{
+    .tank-feature-3 .grid-column{
         grid-template-columns: 1fr;
-        grid-gap: 7px;
+        grid-gap: 35px;
     }
     .tank-feature-3 .three-grids-columns h4{
 
