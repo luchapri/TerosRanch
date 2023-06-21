@@ -1060,14 +1060,14 @@ padding: 0;
     transition: 0.3s ease-in;
 }
 .foto {font-size: 10px;
-padding: 0px 200px 0px 0px;
+padding: 0px 150px 0px 150px;
 }
 .tank-main-banner .banner-view {
     background: url(../img/caratula.jpg);
     background-size: cover;
     font-family: Betterlett;
     color: var(--text-color);
-    font-size: 100px;
+    font-size: 80px;
     min-height: 150vh;
     position: relative;
     padding: 0px 0px 0px 50px;
@@ -1155,7 +1155,7 @@ padding: 0px 200px 0px 0px;
     }
 
 .tank-feature-3 .top-bottom {
-    background: url(../img/fotosph.jpg) no-repeat center;
+    background: url(../img/NOCHE.webp) no-repeat center;
     background-size: cover;
     padding: 100px, 0 120px;
     background-attachment: fixed;
