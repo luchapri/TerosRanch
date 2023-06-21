@@ -856,11 +856,11 @@ padding: 0;
 
 }
 
-.tank-header-4 label.toggle. .toggle-2,
-.tank-header-4 label.toggle. .toggle-3,
-.tank-header-4 label.toggle. .toggle-4,
-.tank-header-4 label.toggle. .toggle-5,
-.tank-header-4 label.toggle. .toggle-6 {
+.tank-header-4 label.toggle .toggle-2,
+.tank-header-4 label.toggle .toggle-3,
+.tank-header-4 label.toggle .toggle-4,
+.tank-header-4 label.toggle .toggle-5,
+.tank-header-4 label.toggle .toggle-6 {
     display: block;
     transition: none;
     font-style: normal;
@@ -870,11 +870,11 @@ padding: 0;
     text-transform: capitalize;
     color: #ffffff;
 }
-.tank-header-4 label.toggle. .toggle-2:hover,
-.tank-header-4 label.toggle. .toggle-3:hover,
-.tank-header-4 label.toggle. .toggle-4:hover,
-.tank-header-4 label.toggle. .toggle-5:hover,
-.tank-header-4 label.toggle. .toggle-6:hover {
+.tank-header-4 label.toggle .toggle-2:hover,
+.tank-header-4 label.toggle .toggle-3:hover,
+.tank-header-4 label.toggle .toggle-4:hover,
+.tank-header-4 label.toggle .toggle-5:hover,
+.tank-header-4 label.toggle .toggle-6:hover {
     color: var(--opposite-color);
 }
 
@@ -1121,11 +1121,15 @@ padding: 0px 150px 0px 150px;
 @media (max-width: 600px){
     .tank-main-banner h3.banner-gallery4-head{
             margin-bottom:  20px;}
-
+            
     .tank-main-banner .banner-view{
             min-height: 550px;
+            font-size: 60px;
+            padding: 0px 150px 0px 50px;
         }
         }
+
+
 @media (max-width: 569px){
     .tank-main-banner h3.gallery4-head {
         font-size: 26px;
@@ -1147,8 +1151,26 @@ padding: 0px 150px 0px 150px;
         .tank-main-banner h3.banner-text {
             font-size: 40px;
             line-height: 50px;
+
         }
     }
+
+    
+
+    @media (max-width: 380px){
+        .tank-main-banner .banner-view{
+            font-size: 50px;
+            padding: 0px 50px 0px 30px;
+
+        }}
+        @media (max-width: 330px){
+            .tank-main-banner .banner-view{
+                font-size: 40px;
+                padding: 0px 80px 0px 30px;
+    
+            }}
+    
+
 
 .tank-feature-3 span.number img{
         vertical-align: -webkit-baseline-middle;
