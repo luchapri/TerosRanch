@@ -113,7 +113,8 @@ h6 {
 p {
     margin: 0;
     padding: 0;
-    color: var(--text-color);
+    color: var(--light-bg-color);
+    font-size: 15px;
 }
 
 .ch {
@@ -125,7 +126,11 @@ p {
     justify-content: space-between;
     padding: 0 100px;
 }
+.nos{
+    font-family: Betterlett;
+    font-size: 60px;
 
+}
 .logo {
     font-size: 30px;
     font-weight: bold;
@@ -1974,7 +1979,7 @@ body::after{
 
 .tank-testimonials .customers-6-content p.card-text {
     padding: 20px  20px;
-    background-color: var(--text-color);
+    background-color: var(--bg-color);
     border: solid 1PX rgba(255, 255, 255, 0.1);
 }
 .tank-testimonials .customers-6-content .card:hover,
