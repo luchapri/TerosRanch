@@ -35,6 +35,84 @@
     src: url(../font/Stigmature.otf);
     }
 
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    background-color: #fff; /* Puedes eliminar esta línea si no quieres fondo */
+    position: absolute;
+    top: 60px; /* Ajusta según sea necesario */
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px; /* Ajusta según sea necesario */
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Mostrar el menú al hacer clic en la barra hamburguesa */
+#toggle:checked + .hamburger + .menu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -475,7 +553,7 @@ h4.sub-title {
 
 .tank-bootstrap-header .navbar-expand-lg,
 .navbar-nav .dropdown-menu {
-    transform: translatex(-50px);
+    transform: translatex(-20px);
 }
 
 .tank-bootstrap-header .navbar-expand-lg
@@ -483,12 +561,12 @@ h4.sub-title {
     content: "";
     width: 10px;
     height: 10px;
-    background-color: var(--white-color);
+    background-color: var(--bg-color);
     border: 1px #d5d5d5 solid;
 display: block;
 border-right: none;
 border-bottom: none;
-transform: translateX(-50px) rotatez (45deg);
+transform: translateX(-50px) rotateZ(45deg);
 position: absolute;
 top: -6px;
 left: 49%;
@@ -518,6 +596,8 @@ z-index: 1001;
     left: 0;
     right: 0;
 }
+
+
 .tank-bootstrap-header .form-inline .search {
     display: inline-block;
     width: 100%;
@@ -533,7 +613,7 @@ z-index: 1001;
     border-radius: 4px;
     font-size: 16px;
     -webkit-aparence: none;
-    border: 1px solid "dedede";
+    border: 1px solid #dedede;
     padding-right: 38px;
 }
 
@@ -563,7 +643,7 @@ z-index: 1001;
 }
 .tank-bootstrap-header .navbar-light .navbar-brand:hover,
 .tank-bootstrap-header .navbar-light .navbar-brand:hover:focus {
-    color: var(--white-color)
+    color: var(--bg-color)
 }
 .tank-bootstrap-header .navbar-light .navbar-nav .show > .nav-link,
 .tank-bootstrap-header .navbar-light .navbar-nav .active >.nav-link,
@@ -665,6 +745,78 @@ z-index: 1001;
     }
 
 }
+/* nuevo arreglo */
+@media (max-width: 991px) {
+    .tank-bootstrap-header .navbar-collapse {
+        position: absolute;
+        top: 100px; /* Ajusta según sea necesario */
+        left: 100;
+        right: 0;
+        background-color: #014034; /* Ajusta según sea necesario */
+        text-align: center;
+        
+    }
+}
+
+/* barra arreglos */
+
+.tank-header-4 .navbar-collapse {
+    background: transparent; /* Fondo transparente */
+}
+
+.tank-header-4 .navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.tank-header-4 .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.tank-header-4 .navbar-light .navbar-toggler {
+    padding: 0.25rem 0.6rem;
+    font-size: 1rem;
+    background-color: var(--opposite-color);
+    border: none;
+    outline: none;
+}
+
+.tank-header-4 .navbar-light .navbar-toggler:hover {
+    background-color: var(--teme-color);
+}
+
+/* Ajuste para mejorar la visibilidad de las opciones de menú en el menú desplegable */
+.tank-header-4 .navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+/* Ajuste de la posición del menú desplegable */
+.tank-header-4 .navbar-light .navbar-collapse {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tank-header-4 {
     background: #000;
@@ -783,16 +935,38 @@ z-index: 1001;
     font-weight: normal;
     font-style: normal;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 38px; /* Ajustado para considerar el espacio de la lupa o el ícono de búsqueda */
     padding-top: 10px;
     padding-bottom: 10px;
     background: transparent;
     outline: none;
     border-radius: 4px;
-    font-size:  16px;
-    -webkit-appearace:none;
-    border: 1px;
-    padding-right: 38px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #dedede;
+}
+
+.tank-header-4 .navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.tank-header-4 .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.tank-header-4 .navbar-light .navbar-toggler {
+    padding: 0.25rem 0.6rem;
+    font-size: 1rem;
+    background-color: var(--opposite-color);
+    border: none;
+    outline: none;
+}
+
+.tank-header-4 .navbar-light .navbar-toggler:hover {
+    background-color: var(--teme-color);
 }
 
 .tank-header-4 button.btn-search {
@@ -1782,7 +1956,6 @@ body::after{
 .lb-outerContainer {
     position: relative;
     background-color:  #fff;
-    *zoom: 1;
     width: 250px;
     height: 250px;
     margin: 0 auto;
@@ -2905,22 +3078,26 @@ padding: 200px;
 }
 
 .tank-about-breadcrum .breadcrum-bg {
-    background: url(../img/fondo2.jpg);
+    background: url(../img/fondo2.jpg) center top no-repeat;
     background-size: cover;
     font-size: 70px;
     font-family: Betterlett;
     color: var(--secondary-color);
-    background-image: linear-gradient(
-        to right,
-        rgba (42, 42, 42, 0.71),
-        rgba(38, 40, 40, 0.78)
-        ),    
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center;
+    background-image: linear-gradient( to right, rgba(42, 42, 42, 0.71), rgba(38, 40, 40, 0.78) );
     padding-top: 300px;
-    
+    position: relative; /* Añade esta línea */
 }
 
+.tank-about-breadcrum .breadcrum-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #014034; Fondo de color */
+    z-index: -1; /* Coloca el fondo de color detrás de la imagen de fondo */
+}
 
 .perro  {
     color: #53A687;
