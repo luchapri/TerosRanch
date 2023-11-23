@@ -19,6 +19,31 @@
     --bg-color:#014034;}
     /* --bg-color:#400101;
 } */
+.tank-about-breadcrum .breadcrum-bg {
+    background: linear-gradient(to right, rgba(42, 42, 42, 0.71), rgba(38, 40, 40, 0.78)), url(../img/fondo2.jpg) center top/cover no-repeat;
+    font-size: 70px;
+    font-family: Betterlett;
+    color: var(--secondary-color);
+    padding-top: 300px;
+    position: relative;
+}
+
+.tank-about-breadcrum .breadcrum-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #014034; Fondo de color */
+    z-index: -1;
+}
+
+
+
+
+
+
 @font-face {
     font-family: "Betterlett";
     src: url(../font/Betterlett.ttf);
@@ -1463,9 +1488,9 @@ padding: 0;
     border-radius: 50%;
 }
 
-.tank-main-banner .banner-tex{
+.tank-main-banner .banner-tex {
     font-family: Betterlett;
-    font-size: 60px;
+    font-size: 3.5vw; /* Ajusta según tus preferencias */
 }
 
 @media (max-width: 992px){
@@ -1492,6 +1517,9 @@ padding: 0;
         min-height: 150px;
     }
     }
+
+   
+
 
 @media (max-width: 600px){
     .tank-main-banner h3.banner-gallery4-head{
