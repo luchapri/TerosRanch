@@ -399,7 +399,7 @@ span.diff {
 .btn-theme1 {
     padding: 8px 16px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
     transition: 0,3s ease-in;
@@ -535,7 +535,7 @@ a.red:hover {
 
 .heading p {
     color: var(--text-color);
-    font-size: 16px;
+    font-size: 18px;
     line-height:  24px;
 }
 
@@ -1514,7 +1514,6 @@ padding: 0;
     }
     }
 
-   
 
 
 @media (max-width: 600px){
@@ -1575,11 +1574,17 @@ padding: 0;
             }}
     
 .head {
-    font-size: 2.5rem; /* Ajusta el tamaño del título según tus preferencias */
-    color: #3498db; /* Cambia el color del título según tus preferencias */
-    font-weight: bold; /* Puedes ajustar la negrita según tus preferencias */
+    font-family: sans-serif;
+    font-size: 1.5rem; /* Ajusta el tamaño del título según tus preferencias */
+    color: #D92929; /* Cambia el color del título según tus preferencias */
+    
     }
-            
+
+    .gus{
+        font-family: sans-serif;
+        text-align: justify;
+        font-size: 1.0rem;
+    }
 .tank-feature-3 span.number img{
         vertical-align: -webkit-baseline-middle;
     }
@@ -2182,6 +2187,8 @@ body::after{
     padding: 20px  20px;
     background-color: var(--bg-color);
     border: solid 1PX rgba(255, 255, 255, 0.1);
+    font-family: sans-serif;
+    text-align: justify;
 }
 .tank-testimonials .customers-6-content .card:hover,
 .tank-testimonials .customers-6-content .card:hover img {
@@ -2371,12 +2378,12 @@ pointer-events:  none;
 .chanita {
     margin-left: 40px;
 }
-.head {
+/* .head {
     color: var(--white-color);
     font-size: 45px;
     font-family: sans-serif;
     /* font-family: Betterlett; */
-}
+} */
 .tank-footer-29-main option {
     background: #ffffff;
     color: var(--text-color);
@@ -2420,7 +2427,7 @@ pointer-events:  none;
 
 
 .tank-footer-29-main .tank-forms-9 h4.title-head {
-    font-size: 24px;
+    font-size: 100px;
     line-height: 30px;
     color: var(--white-color);
 }
@@ -2862,6 +2869,7 @@ li:last-child{
 .tank-features-4  .features {
     background: var(--bg-color);
     font-family: "Akira";
+    text-align: justify;
 
 }
 
@@ -2878,6 +2886,7 @@ li:last-child{
 
 .tank-features-4 .features h5 {
     font-size: 20px;
+    text-align: justify;
     line-height: 30px;
     color: var(--title-color);
     font-weight:  700;
@@ -3143,6 +3152,7 @@ padding: 200px;
         align-items: center;
         padding-top: 300px;
         color: #fff; /* Ajusta el color del texto para que sea legible en tu imagen de fondo */
+        font-family: sans-serif;
     }
 
     .breadcrum-bg {
@@ -3157,22 +3167,30 @@ padding: 200px;
 
     .tank-welcome {
         background-color: #014034; /* Ajusta el color de fondo según tus preferencias */
-        font-family: "Arika";
+        font-family: sans-serif;
     }
     #about {
-        font-family: "Arika", sans-serif; /* Cambia "Arika" por el nombre correcto de tu fuente */
+        font-family: sans-serif; /* Cambia "Arika" por el nombre correcto de tu fuente */
     }
     
     .head {
-        font-family: "Arika", sans-serif; /* Puedes ajustar la fuente del título específicamente si es necesario */
-    }
+        font-family: sans-serif; /* Puedes ajustar la fuente del título específicamente si es necesario */
+        text-align: justify;
+        font-size: 2.5em; /* Tamaño de fuente inicial */
+        line-height: 1.6; /* Altura de línea recomendada */
+        }
     
+    .justified {
+            text-align: justify;
+            font-family: sans-serif;
+        }   
     p {
-        font-family: "Arika", sans-serif; /* Puedes ajustar la fuente del párrafo específicamente si es necesario */
+        font-family: "Arika";/* Puedes ajustar la fuente del párrafo específicamente si es necesario */
     }
     
 
     .welcome-title {
+        font-family: sans-serif;
         padding-top: 50px;
         font-size: 2.5rem; /* Ajusta el tamaño del título según tus preferencias */
         color: #ffffff; /* Ajusta el color del título según tus preferencias */
@@ -3180,8 +3198,10 @@ padding: 200px;
     }
     
     .welcome-text {
+        font-family: sans-serif;
+        text-align: justify;
         font-size: 1.2rem; /* Ajusta el tamaño del texto según tus preferencias */
-        color: #ffffff; /* Ajusta el color del texto según tus preferencias */
+        color: #AFF21D; /* Ajusta el color del texto según tus preferencias */
     }
     
 
