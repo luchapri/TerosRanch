@@ -161,7 +161,7 @@ button,
 select {
     /* cursor: ; */
     font-family: sans-serif;
-    background: var(--secondary-color)!important;
+    background: var(--white-color)!important;
 }
 
 a,
@@ -621,7 +621,7 @@ z-index: 1001;
 
 .tank-bootstrap-header button.btn-search {
     right: 0;
-    color: #ffffff;
+    color: #D92929;
 }
 
 .tank-bootstrap-header a.navbar-brand {
@@ -2383,7 +2383,7 @@ pointer-events:  none;
     font-size: 45px;
     font-family: sans-serif;
     /* font-family: Betterlett; */
-} */
+
 .tank-footer-29-main option {
     background: #ffffff;
     color: var(--text-color);
