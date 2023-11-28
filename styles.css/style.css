@@ -1598,6 +1598,11 @@ padding: 0;
     z-index: 0;
 
 }
+@media (max-width: 600px) {
+    body {
+        background-image: url('noche_baja_resolucion.jpg');
+    }
+}
 
 .tank-feature-3 .top-bottom::before {
     content: "";
@@ -2868,7 +2873,7 @@ li:last-child{
 
 .tank-features-4  .features {
     background: var(--bg-color);
-    font-family: "Akira";
+    font-family: sans-serif;
     text-align: justify;
 
 }
