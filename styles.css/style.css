@@ -3159,7 +3159,11 @@ padding: 200px;
         color: #fff; /* Ajusta el color del texto para que sea legible en tu imagen de fondo */
         font-family: sans-serif;
     }
-
+    @media screen and (max-width: 767px) {
+        .breadcrum-bg {
+            background-attachment: scroll; /* Asegura que la imagen se deslice con el contenido en dispositivos móviles */
+        }
+    }
     .breadcrum-bg {
         width: 100%; 
         padding: 20px;
@@ -3265,6 +3269,7 @@ padding: 200px;
     font-family: sans-serif;
     margin-top: 10px; /* Puedes ajustar el espaciado superior del texto según tus preferencias */
     font-size: 16px; /* Puedes ajustar el tamaño del texto según tus preferencias */
-    color: #fff/* Puedes ajustar el color del texto según tus preferencias */
+    color: #fff
+    /* Puedes ajustar el color del texto según tus preferencias */
 
 
