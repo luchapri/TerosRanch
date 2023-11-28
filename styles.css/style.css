@@ -3235,6 +3235,36 @@ padding: 200px;
 }
 /* fin botoon whsaaap */
 
+/* Estilos para la Galería de Imágenes */
+.tank-gallery {
+    background-color: #014034; /* Puedes ajustar el color de fondo según tus preferencias */
+    padding: 50px 0; /* Puedes ajustar el espaciado interno según tus preferencias */
+}
 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 300px; /* Puedes ajustar el ancho máximo de las imágenes según tus preferencias */
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #ddd; /* Puedes añadir un borde según tus preferencias */
+    border-radius: 5px; /* Puedes añadir esquinas redondeadas según tus preferencias */
+}
+
+.image-text {
+    font-family: sans-serif;
+    margin-top: 10px; /* Puedes ajustar el espaciado superior del texto según tus preferencias */
+    font-size: 16px; /* Puedes ajustar el tamaño del texto según tus preferencias */
+    color: #fff/* Puedes ajustar el color del texto según tus preferencias */
 
 
